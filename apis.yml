@@ -1,19 +1,46 @@
 aid: 12-gigs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/12-gigs.png
 name: 12 Gigs
-description: 12 Gigs is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 12 Gigs, Inc. — later operating as Super Lucky Casino Inc. and renamed
+  Super Free Games, Inc. — was a San Francisco-based mobile game developer founded
+  in 2011. The studio began in social casino games (Super Lucky Casino) before pivoting
+  to casual and word titles such as Word Collect, Word Nut and Trivia Star. It was
+  acquired by Stillfront Group in December 2020 for approximately USD 150 million upfront
+  and now operates as a Stillfront studio; its former superluckycasino.com domain now
+  redirects to stillfront.com. The company exposes no public developer API, documentation,
+  or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/12-gigs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+x-acquired-by: stillfront-group
+x-acquired-date: '2020-12-18'
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: 'consumer mobile-game studio; no public developer API/docs/SDK found (2026-07-17)'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Social Casino
+- Casual Games
+- Word Games
+- Stillfront
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/12-gigs-domain-security.yml
 - type: Website
   url: https://superluckycasino.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
