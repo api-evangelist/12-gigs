@@ -18,8 +18,10 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
-  generated: '2026-07-22'
+  source:
+  - security
+  - {url: 'https://superluckycasino.com', status: 301, note: 'declared website redirects to https://www.stillfront.com/en/ — a different registrable domain (superluckycasino.com -> stillfront.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
+  generated: '2026-09-03'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/12-gigs.png
 name: 12 Gigs
